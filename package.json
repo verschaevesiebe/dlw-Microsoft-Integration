@@ -9,11 +9,15 @@
   },
   "repository": "/dlw-Microsoft-Integration",
   "scripts": {
-    "dev": "vuepress dev src",
-    "build": "vuepress build src"
+    "dev": "vuepress dev src && copyfiles -f ./src/routes.json ./src/.vuepress/dist",
+    "build": "vuepress build src  && copyfiles -f ./src/routes.json ./src/.vuepress/dist",
+    "test": ""
   },
   "license": "MIT",
   "devDependencies": {
     "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "copyfiles": "^2.3.0"
   }
 }
