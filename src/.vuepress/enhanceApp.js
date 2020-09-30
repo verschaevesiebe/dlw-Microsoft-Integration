@@ -11,8 +11,4 @@ export default ({
   siteData // site metadata
 }) => {
   // ...apply enhancements for the site.
-  router.addRoutes([
-    { path: '/guide/', allowedRoles: ["authenticated"]},
-    { path: '/bar/', redirect: '/' }
-  ])
 }
