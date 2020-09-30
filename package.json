@@ -1,19 +1,14 @@
 {
-  "name": "microsoft-integration-docs",
-  "version": "0.0.1",
-  "description": "Management Tool for online documentation",
+  "name": "dlw-Microsoft-Integration",
+  "version": "1.0.0",
   "main": "index.js",
-  "authors": {
-    "name": "Siebe Verschaeve",
-    "email": "siebe.verschaeve@delaware.pro"
-  },
-  "repository": "private/Microsoft Integration Docs",
-  "scripts": {
-    "dev": "vuepress dev src",
-    "build": "vuepress build src"
-  },
+  "repository": "https://github.com/verschaevesiebe/dlw-Microsoft-Integration.git",
+  "author": "Siebe Verschaeve <verschaevesiebe@hotmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.5.3"
-  }
+    "vuepress": "^1.6.0"
+  },
+  "scripts": {
+    "build": "vuepress build"
+}
 }
